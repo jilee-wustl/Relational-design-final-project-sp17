@@ -30,29 +30,25 @@ window.onload = function() {
 			effect(answer,x,y);
     }
 
-$(document).ready(function() {
-  var tempvar = "";
-  $("#mySelect").on("change", function() {
-    tempvar = $("#mySelect").val();
-    if (tempvar == "1") {
-      $('.container').css({
-        'background-color' : 'red',
-        'cursor': 'url("https://image.ibb.co/bLDJWQ/cursor_smile.png"), auto',
-      });
-    }
-    else if (tempvar == "2") {
-      $('.container').css({
-        'cursor': 'url("https://image.ibb.co/jeGu5k/cursor_neutral.png"), auto;',
-      });
-    }
-    else if (tempvar == "3") {
-      $('.container').css({
-        'cursor': 'url("https://image.ibb.co/h1GGJ5/cursor_sad.png"), auto;',
-      });
-    }
-  });
-});
-		
+
+function mouseChange() {
+      var tempvar = "";
+      tempvar = document.getElementById("mySelect").value;
+      if (tempvar == "1") {
+            container.style.cursor = 'url("https://image.ibb.co/bLDJWQ/cursor_smile.png"), auto';
+            container.style.background = 'red';
+      }
+      else if (tempvar == "2") {
+            container.style.cursor = 'url("https://image.ibb.co/jeGu5k/cursor_neutral.png"), auto';
+            container.style.background = 'blue';
+      }
+      else if (tempvar == "3") {
+            container.style.cursor = 'url("https://image.ibb.co/h1GGJ5/cursor_sad.png"), auto';
+            container.style.background = 'green';
+      }
+}
+
+
 function effect(answer,x,y) {
 			 
 			//HATE 

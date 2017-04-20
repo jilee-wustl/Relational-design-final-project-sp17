@@ -34,6 +34,7 @@ window.onload = function() {
 function mouseChange() {
       var tempvar = "";
       tempvar = document.getElementById("mySelect").value;
+      var container = document.getElementById("cont");
       if (tempvar == "1") {
             container.style.cursor = 'url("https://image.ibb.co/bLDJWQ/cursor_smile.png"), auto';
             container.style.background = 'red';

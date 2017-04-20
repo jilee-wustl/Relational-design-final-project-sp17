@@ -1,0 +1,139 @@
+html {
+    min-width: 410px;
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.menu {
+    padding: 30px;
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+    border-bottom: solid 1px;
+}
+
+.menu:after{
+    content:'';
+    display: inline-block;
+    width: 100%;
+}
+
+.menu:before {
+    content: '';
+    display: block;
+    /*margin-top: -1.25em;*/
+}
+
+.submenu {
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+#about {
+    font-style: italic !important;
+}
+
+.submenu a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+}
+
+#site_title {
+    /*font-style: italic;*/
+}
+
+#site_title a:hover {
+    text-decoration: none !important;
+}
+
+.container {
+    position: absolute;
+    display: block;
+    top: 86px;
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 100px;
+    height: 64vh;
+    text-align: center;
+    font-size: 25px;
+}
+
+.explanation{
+    font-family: times, serif !important;
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    float: right;
+    padding-right: 150px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    text-align: left !important;
+}
+
+.explanation p {
+    margin: 0;
+}
+.start_btn {
+    cursor: pointer;
+    border: solid 1px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 80px;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.start_btn a {
+    color: black !important;
+}
+
+.start_btn p:hover {
+    text-decoration: underline;
+}
+
+.start_btn p {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#siteby {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.names {
+    line-height: 1.7;
+    float: left;
+    width: 20%;
+    text-align: left !important;
+}
+
+.names a {
+    color: black;
+}

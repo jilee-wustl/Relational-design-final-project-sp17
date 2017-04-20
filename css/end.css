@@ -1,0 +1,126 @@
+html {
+    min-width: 410px;
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.menu {
+    padding: 30px;
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+    border-bottom: solid 1px;
+}
+
+.menu:after{
+    content:'';
+    display: inline-block;
+    width: 100%;
+}
+
+.menu:before {
+    content: '';
+    display: block;
+    /*margin-top: -1.25em;*/
+}
+
+.submenu {
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+}
+
+#site_title {
+    font-style: italic;
+}
+
+#site_title a:hover {
+    text-decoration: none !important;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 100px;
+    top: 86px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70%;
+    height: 64vh;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container_title {
+    font-size: 50px !important;
+    height: 100%;
+    padding-bottom: 25px;
+
+}
+
+.explanation{
+    font-family: times, serif !important;
+    display: inline-block;
+    width: 68%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.start_btn {
+    margin-top: 170px !important;
+    border: solid 1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.start_btn a {
+    color: black !important;
+}
+
+.start_btn p:hover {
+    text-decoration: underline !important;
+}
+
+.start_btn p {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+}

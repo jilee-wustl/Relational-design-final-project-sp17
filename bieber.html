@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title> TITLE </title>
+		
+    <link rel="stylesheet" href="css/test.css">
+		<link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/image-picker.css">
+		
+			
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js" type="text/javascript"></script>
+    <script src="js/image-picker.js" type="text/javascript"></script>
+    <script src="js/glfx.js"></script>
+    <script src="js/effect.js"></script>
+
+  </head>
+  
+  <body>
+    <header>
+			<ul class="menu">
+				<li class="submenu"> <a href="about.html"> About </a> </li>
+				<li class="submenu" id="site_title"> <a href="index.html"> Site Title </a> </li>
+				<li class="submenu"> <a href="gallery.html"> Gallery </a> </li>
+			</ul>
+		</header>
+		
+		<div class="number" id="number">
+			<span>1 / 5</span>
+		</div>
+		
+		<div class="container">
+			<div class="canvas" id="canv" onclick="determineCoords(event);">
+        <img id="image" src="image/bieber.png">
+      </div>
+      <div class="sidebar">
+        <div class="picker">
+					<select class="image-picker" id ="mySelect">
+						<option value="" disabled selected></option>
+						<option data-img-src='imagesused/smile.png' data-img-label='SMILE' data-img-alt="SMILE" value="1"></option>
+						<option data-img-src='imagesused/neutral.png' data-img-label='NEUTRAL' data-img-alt="NEUTRAL" value="2"></option>
+						<option data-img-src='imagesused/sad.png' data-img-label='SAD' data-img-alt="SAD" value="3"></option>
+					</select>
+        </div>
+				</div>
+			</div>
+		
+		</div>
+  </body>
+  
+</html>

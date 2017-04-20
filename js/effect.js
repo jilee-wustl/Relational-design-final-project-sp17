@@ -36,19 +36,16 @@ $(document).ready(function() {
     tempvar = $("#mySelect").val();
     if (tempvar == "1") {
       $('.container').css({
-        'background-color': 'red',
         'cursor': 'url("https://image.ibb.co/bLDJWQ/cursor_smile.png"), auto',
       });
     }
     else if (tempvar == "2") {
       $('.container').css({
-        'background-color': 'green',
         'cursor': 'url("https://image.ibb.co/jeGu5k/cursor_neutral.png"), auto;',
       });
     }
     else if (tempvar == "3") {
       $('.container').css({
-        'background-color': 'blue',
         'cursor': 'url("https://image.ibb.co/h1GGJ5/cursor_sad.png"), auto;',
       });
     }

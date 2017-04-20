@@ -36,6 +36,7 @@ $(document).ready(function() {
     tempvar = $("#mySelect").val();
     if (tempvar == "1") {
       $('.container').css({
+        'background-color' : 'red',
         'cursor': 'url("https://image.ibb.co/bLDJWQ/cursor_smile.png"), auto',
       });
     }

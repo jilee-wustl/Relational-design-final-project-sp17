@@ -37,22 +37,19 @@ $(document).ready(function() {
     if (tempvar == "1") {
       $('.container').css({
         'background-color': 'red',
+        'cursor': 'url("https://image.ibb.co/bLDJWQ/cursor_smile.png"), auto',
       });
-      
-      //$('.container').css({
-      //  'cursor': 'help',
-      //});
     }
     else if (tempvar == "2") {
       $('.container').css({
         'background-color': 'green',
-        'cursor': 'url(imagesused/neutral.png), auto;',
+        'cursor': 'url("https://image.ibb.co/jeGu5k/cursor_neutral.png"), auto;',
       });
     }
     else if (tempvar == "3") {
       $('.container').css({
         'background-color': 'blue',
-        'cursor': 'url(imagesused/sad.png), auto;',
+        'cursor': 'url("https://image.ibb.co/h1GGJ5/cursor_sad.png"), auto;',
       });
     }
   });

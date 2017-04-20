@@ -93,7 +93,7 @@ header {
     width: 100%;
     text-align: center;
     font-size: 25px;
-    cursor: url("imagesused/happy.png"), auto;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
 
 .container_title {
